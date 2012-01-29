@@ -4,11 +4,11 @@
 --                                                    2011.06.03
 -- |
 -- Module      :  Data.Or
--- Copyright   :  Copyright (c) 2010--2011 wren ng thornton
+-- Copyright   :  Copyright (c) 2010--2012 wren ng thornton
 -- License     :  BSD
 -- Maintainer  :  wren@community.haskell.org
 -- Stability   :  provisional
--- Portability :  Haskell98 (+CPP)
+-- Portability :  Haskell98 + CPP
 --
 -- A data type for non-exclusive disjunction. This is helpful for
 -- things like a generic merge function on sets\/maps which could

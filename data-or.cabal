@@ -20,7 +20,7 @@ Description:    A data type for non-exclusive disjunction.
 -- and source-repository:.
 Cabal-Version:  >= 1.6
 Build-Type:     Simple
-Tested-With:    GHC == 6.12.1
+Tested-With:    GHC == 6.12.1, GHC == 6.12.3
 
 Source-Repository head
     Type:     darcs
