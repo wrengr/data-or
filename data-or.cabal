@@ -1,14 +1,19 @@
 ----------------------------------------------------------------
--- wren ng thornton <wren@community.haskell.org>    ~ 2011.07.12
+-- wren ng thornton <wren@community.haskell.org>    ~ 2012.02.08
 ----------------------------------------------------------------
 
+-- By and large Cabal >=1.2 is fine; but >= 1.6 gives tested-with:
+-- and source-repository:.
+Cabal-Version:  >= 1.6
+Build-Type:     Simple
+
 Name:           data-or
-Version:        1.0.0
+Version:        1.0.0.1
 Stability:      provisional
 Homepage:       http://code.haskell.org/~wren/
 Author:         wren ng thornton
 Maintainer:     wren@community.haskell.org
-Copyright:      Copyright (c) 2010--2011 wren ng thornton
+Copyright:      Copyright (c) 2010--2012 wren ng thornton
 License:        BSD3
 License-File:   LICENSE
 
@@ -16,12 +21,10 @@ Category:       Data
 Synopsis:       A data type for non-exclusive disjunction.
 Description:    A data type for non-exclusive disjunction.
 
--- By and large Cabal >=1.2 is fine; but >= 1.6 gives tested-with:
--- and source-repository:.
-Cabal-Version:  >= 1.6
-Build-Type:     Simple
-Tested-With:    GHC == 6.12.1, GHC == 6.12.3
-
+Tested-With:
+    GHC == 6.12.1, GHC == 6.12.3
+Extra-source-files:
+    VERSION
 Source-Repository head
     Type:     darcs
     Location: http://community.haskell.org/~wren/data-or
