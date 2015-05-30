@@ -4,7 +4,7 @@
 --                                                    2011.06.03
 -- |
 -- Module      :  Data.Or
--- Copyright   :  Copyright (c) 2010--2012 wren gayle romano
+-- Copyright   :  Copyright (c) 2010--2015 wren gayle romano
 -- License     :  BSD
 -- Maintainer  :  wren@community.haskell.org
 -- Stability   :  provisional
