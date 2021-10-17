@@ -7,7 +7,7 @@ Cabal-Version:  >= 1.10
 Build-Type:     Simple
 
 Name:           data-or
-Version:        1.0.0.6
+Version:        1.0.0.7
 Stability:      provisional
 Homepage:       https://wrengr.org/software/hackage.html
 Bug-Reports:    https://github.com/wrengr/data-or/issues
@@ -40,25 +40,11 @@ Source-Repository head
     Location: https://github.com/wrengr/data-or.git
 
 ----------------------------------------------------------------
-Flag base4
-    Default:     True
-    Description: base-4.0 emits "Prelude deprecated" messages in
-                 order to get people to be explicit about which
-                 version of base they use.
-
--- TODO: add flags for compiling against haskell98 or haskell2010
--- instead of base?
-
-----------------------------------------------------------------
 Library
     Default-Language: Haskell98
-    Hs-Source-Dirs:  src
-    Exposed-Modules: Data.Or
-    
-    if flag(base4)
-        Build-Depends: base >= 4 && < 5
-    else
-        Build-Depends: base < 4
+    Hs-Source-Dirs:   src
+    Exposed-Modules:  Data.Or
+    Build-Depends:    base >= 4 && < 5
 
 ----------------------------------------------------------------
 ----------------------------------------------------------- fin.
