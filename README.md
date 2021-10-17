@@ -1,9 +1,8 @@
 data-or
 =======
 [![Hackage version](https://img.shields.io/hackage/v/data-or.svg?style=flat)](https://hackage.haskell.org/package/data-or) 
-[![Hackage-Deps](https://img.shields.io/hackage-deps/v/data-or.svg?style=flat)](http://packdeps.haskellers.com/specific?package=data-or)
-[![TravisCI Build Status](https://img.shields.io/travis/wrengr/data-or.svg?style=flat)](https://travis-ci.org/wrengr/data-or) 
-[![CircleCI Build Status](https://circleci.com/gh/wrengr/data-or.svg?style=shield&circle-token=b57517657c556be6fd8fca92b843f9e4cffaf8d1)](https://circleci.com/gh/wrengr/data-or)
+[![Build Status](https://github.com/wrengr/data-or/workflows/ci/badge.svg)](https://github.com/wrengr/data-or/actions?query=workflow%3Aci)
+[![Dependencies](https://img.shields.io/hackage-deps/v/data-or.svg?style=flat)](http://packdeps.haskellers.com/specific?package=data-or)
 
 This package provides a data type for non-exclusive disjunction.
 In addition we provide a non-truncating version of `zip`, `zipWith`,
@@ -44,11 +43,8 @@ to be good producers for list fusion in GHC.
 
 ## Links
 
-* [Website](http://cl.indiana.edu/~wren/)
+* [Website](http://wrengr.org/)
 * [Blog](http://winterkoninkje.dreamwidth.org/)
 * [Twitter](https://twitter.com/wrengr)
 * [Hackage](http://hackage.haskell.org/package/data-or)
-* [Darcs](http://code.haskell.org/~wren/data-or)
-* [GitHub (clone)](https://github.com/wrengr/data-or)
-* [Haddock (Darcs version)
-    ](http://code.haskell.org/~wren/data-or/dist/doc/html/data-or)
+* [GitHub](https://github.com/wrengr/data-or)
