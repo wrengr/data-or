@@ -1,4 +1,5 @@
-1.0.0.6 (2021-10-16):
+1.0.0.7 (2021-10-17):
+    - Updating emails, urls, etc
     - Started GithubActions for CI
 1.0.0.5 (2015-05-30):
     - Moved VERSION to CHANGELOG
