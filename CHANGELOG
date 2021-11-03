@@ -1,3 +1,6 @@
+1.0.0.8 (2021-11-02):
+    - Added `Tested-With: GHC == 9.2.1` (didn't actually need to
+      nudge the upper bound on 'base', because it's already lenient)
 1.0.0.7 (2021-10-17):
     - Updating emails, urls, etc
     - Started GithubActions for CI
